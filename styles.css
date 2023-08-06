@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+html {scroll-behavior: smooth;}
 
 /**********************************
 
@@ -12,8 +12,8 @@ For Spacing. Comment Me Out Later
 
 **********************************/
 
-nav, main { border: 2px solid black;}
-
+/* nav, main { border: 2px solid black;}
+ */
 
 /**********************************
 
@@ -33,6 +33,11 @@ nav {
     overflow-x: hidden;
 }
 
+nav ul {
+    border: 1px solid #4d4e53;
+    color: #4d4e53;
+}
+
 
 nav li {
     border-top: 1px solid black;
@@ -47,9 +52,24 @@ nav header h1 {
     margin: 10px;
 }
 
+article {
+    margin: 15px;
+}
 
-
-
+code {
+    position: relative;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f7f7f7;
+    text-align: left;
+    display: inline-block;
+    white-space: pre-line;
+    border-radius: 5px;
+    word-break: normal;
+	word-wrap: normal;
+}
+ 
+ 
 /**** Main ****/
 
 
@@ -63,7 +83,10 @@ nav header h1 {
 
 **********************************/
 
-header {text-align: center;}
+nav > header > h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 html {
     line-height: 1.6;
@@ -86,6 +109,22 @@ p {
     font-size: 0.96rem;
 }
 
+main {
+    padding: 20px;
+}
+
+main p {
+    margin: 15px;
+}
+
+main ul {
+    margin: 15px 0;
+    padding-left: 40px;
+}
+
+main li {
+    margin: 15px 0 0 20px;
+}
 
 /**********************************
 
@@ -112,6 +151,11 @@ p {
         position: absolute;
         margin-left: 310px;
         padding: 20px
+    }
+
+    nav ul {
+        border-left: none; 
+        border-right: none;
     }
 }
  
