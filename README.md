@@ -4,6 +4,8 @@
 
 ### Wiki
 
+https://github.com/webdevkeenan/tech_doc/wiki
+
 ## Tools Used: 
 + [Visual Studio Code](https://code.visualstudio.com/)
 + [Pop!_OS (Linux)](https://pop.system76.com/)
