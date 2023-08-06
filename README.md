@@ -1,4 +1,3 @@
-
 # A Technical Documentation Page
 
 [Link To Site]()

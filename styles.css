@@ -43,14 +43,16 @@ nav {
 }
 
 nav ul {
-    border: 1px solid #4d4e53;
-    color: #4d4e53;
+  /*   border: 1px solid #4d4e53; */
+    border: #fff;
+/*     color: #4d4e53; */
+    color: #fff;
     font-size: .8rem;
 }
 
 
 nav li {
-    border-top: 1px solid black;
+    border-top: 1px inset white;
     width: 100%;
 }
 
@@ -88,7 +90,6 @@ code {
 
 
 
-
 /**********************************
 
             Typography
@@ -106,7 +107,8 @@ html {
 
 nav a {
     text-decoration: none;
-    color: #4d4e53;
+   /*  color: #4d4e53; */
+   color: #fff;
     width: 100%;
     font-weight: bolder;
 }
@@ -155,7 +157,8 @@ main li {
 
     nav {
         position: fixed;
-        border-right: solid 2px rgba(0, 22, 22, 0.4);
+       /*  border-right: solid 2px rgba(0, 22, 22, 0.4); */
+       border-right: inset 2px #fff;
         min-width: 290px;
         height: 100%;
     }
