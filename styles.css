@@ -39,6 +39,7 @@ nav {
 nav ul {
     border: 1px solid #4d4e53;
     color: #4d4e53;
+    font-size: .8rem;
 }
 
 
@@ -99,9 +100,14 @@ nav a {
     text-decoration: none;
     color: #4d4e53;
     width: 100%;
+    font-weight: bolder;
 }
 
-nav a:hover {cursor: pointer}
+nav a:hover {
+    cursor: pointer;
+    color: steelblue;
+    transition: 0.7s;
+}
 
 nav a:visited {
     color: blue;
