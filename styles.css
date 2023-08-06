@@ -9,7 +9,7 @@ html {
     font-family: 'Roboto Mono', monospace;
     background-image: url("/img/mohammad-rahmani-8qEB0fTe9Vw-unsplash.jpg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-blend-mode: multiply;
     background-color: #4d4e53;
     color: white;
