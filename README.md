@@ -18,6 +18,7 @@ https://github.com/webdevkeenan/tech_doc/wiki
 + Responsive Web Design
 + Responsive Side Navbar With Hidden Overflow. (Scroll)
 + Fixed Background
++ Designed For User Accessibility
 
 
 ### v1.0
