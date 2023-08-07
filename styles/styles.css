@@ -30,6 +30,10 @@ For Spacing. Comment Me Out Later
 
 **********************************/
 
+body {
+    margin: 8px;
+}
+
 /*** Nav ****/
 
 nav a {
